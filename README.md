@@ -1,8 +1,6 @@
 # 解决问题
 
-在海豚项目多语言开发中，vue文件中都是多语言的key值，在开发，调试，可读性较差，需要找到该key对应的语言信息
-
-该插件解决该问题。当鼠标悬浮目标多语言key时，显示当前多语言对应所有语种信息。
+当鼠标悬浮目标多语言key时，显示当前多语言对应所有语种信息。
 
 ![exp](./public/show.png)
 
@@ -12,7 +10,7 @@
 
 下载工程,然后放置C:\Users\用户名\.vscode\extensions （默认地址）即可。目前暂支持手动放置，未申请应用市场账号 0.0 。
 
-默认多语言路径为vessel脚手架搭建的多语言文件路径：["public/static/i18n/zh_CN/index.json", "public/static/i18n/en_US/index.json"]
+默认多语言路径为vue脚手架搭建的多语言文件路径：["public/static/i18n/zh_CN/index.json", "public/static/i18n/en_US/index.json"]
 也可自己设置项目多语言路径。在vscode中用户设置如下
 
 ```js
