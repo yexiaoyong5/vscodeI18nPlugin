@@ -1,0 +1,40 @@
+{
+	"name": "vscode-plugin-i18n",
+	"displayName": "vscode-plugin-i18n",
+	"description": "vscode-i18n",
+	"publisher": "maimaihuijia",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.29.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"configuration": {
+            "type": "object",
+            "title": "vessel项目多语言实时显示",
+            "properties": {
+                "vscode.i18nPath": {
+                    "type": "Array",
+                    "default": ["public/static/i18n/zh_CN/index.json", "public/static/i18n/en_US/index.json"],
+                    "description": "多语言文件路径"
+                }
+            }
+        },
+		"commands": [
+			{
+				"command": "extension.helloWorld",
+				"title": "Hello World"
+			}
+		]
+	},
+	"scripts": {
+	},
+	"devDependencies": {
+	}
+}
